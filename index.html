@@ -6,12 +6,15 @@
 	<title>Login Page</title>
 	<!-- Link the external CSS file -->
 	<link rel="stylesheet" type="text/css" href="cssLoginPage.css">
+	<link rel="stylesheet" type="text/css" href="cssTheme.css">
 </head>
 <body>
+	<!-- button for changing the theme -->
+	<button id="toggle-theme">Toggle Theme</button>
 	<!-- Create a container to hold the login form -->
 	<div class="container">
 		<!-- Add a heading for the login page -->
-		<h1>Login Page at Index</h1>
+		<h1>Login Page</h1>
 		<!-- Create the login form with inputs for the username, password, and a submit button -->
 		<form>
 			<label for="username">Username:</label>
@@ -25,7 +28,7 @@
 			<!-- First grid will be a row: entity1 entity2-->
 			<div class="grid-container">
 				<div>
-					<button type="button" id="buttonLogin" class="button buttonLogin" onclick="loginClick()">Login</button>
+					<button type="button" id class="button buttonLogin" onclick="loginClick()">Login</button>
 				</div>
 				<!-- Second grid is a column: entity1-->
 				<!--						  entity2-->
@@ -42,6 +45,7 @@
 	</div>
 
 	<!-- Add a script tag to open a new window when the login button is pressed -->
+	
 	<script>
 		function loginClick() {
 			window.open("http://www.example.com");
@@ -52,6 +56,6 @@
 			window.open("newAccountPage.html");
 		}
 	</script>
-
+	<script src="jsDarkModeScript.js"></script>
 </body>
 </html>
