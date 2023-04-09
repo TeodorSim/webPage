@@ -39,7 +39,7 @@ body {
 .button{
    /* background-color: #b23005; */
 	color: #4c8ef8;
-	padding: 40px 40px;
+	padding: auto;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
