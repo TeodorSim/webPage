@@ -6,8 +6,11 @@
 	<title>Login Page</title>
 	<!-- Link the external CSS file -->
 	<link rel="stylesheet" type="text/css" href="cssLoginPage.css">
+	<link rel="stylesheet" type="text/css" href="cssTheme.css">
 </head>
 <body>
+	<!-- button for changing the theme -->
+	<button id="toggle-theme">Toggle Theme</button>
 	<!-- Create a container to hold the login form -->
 	<div class="container">
 		<!-- Add a heading for the login page -->
@@ -42,6 +45,7 @@
 	</div>
 
 	<!-- Add a script tag to open a new window when the login button is pressed -->
+	
 	<script>
 		function loginClick() {
 			window.open("http://www.example.com");
@@ -52,6 +56,6 @@
 			window.open("newAccountPage.html");
 		}
 	</script>
-
+	<script src="jsDarkModeScript.js"></script>
 </body>
 </html>

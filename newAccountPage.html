@@ -6,8 +6,11 @@
 	<title>New account</title>
 	<!-- Link the external CSS file -->
     <link rel="stylesheet" type="text/css" href="cssNewAccountPage.css">
+	<link rel="stylesheet" type="text/css" href="cssTheme.css">
 </head>
 <body>
+	<!-- button for changing the theme -->
+	<button id="toggle-theme">Toggle Theme</button>
 	<!-- Create a container to hold the login form -->
 	<div class="container">
 		<!-- Add a heading for the login page -->
@@ -42,7 +45,7 @@
 			</div>
 		</form>
 		<footer>
-            <div class="buttonContact">
+            <div>
                 <button type="button" class="buttonContact" onclick="contactUs()">Contact us!</button>
             </div>
             <p>&copy; 2023 Web Project. All Rights Reserved.</p>
@@ -57,5 +60,7 @@
 		   window.open("aboutPage.html");
 	   }
    </script>
+   <!-- dark theme script -->
+	<script src="jsDarkModeScript.js"></script>
 </body>
 </html>
