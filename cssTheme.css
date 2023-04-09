@@ -169,7 +169,7 @@ body.dark footer {
     position: relative;
 		transform: none;
 		width: 80%;
-		max-width: 600;
+		max-width: 600px;
     top: auto;
     left: auto;
 		margin: auto;
@@ -181,7 +181,7 @@ body.dark footer {
     position: relative;
 		transform: none;
 		width: 80%;
-		max-width: 600;
+		max-width: 600px;
     top: auto;
     left: auto;
 		margin: auto;
